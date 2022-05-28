@@ -1,0 +1,92 @@
+:root {
+    --su: 200px;
+    --fade-duration: 700ms;
+  }
+  
+body {
+    background-color: rgb(42, 56, 69);
+}
+
+.logo{
+    position:absolute;
+    width: var(--su);
+    height: var(--su);
+    float: left;
+    transition: transform 100ms ease-in-out;
+}
+
+.azwaz_w {
+    background-image: url(icons/SVG/AZWAZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.azwaz_c {
+    background-image: url(icons/SVG/AZWAZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+
+.logo_container {
+    position: relative;
+    margin: calc(.5 * var(--su));
+    /* margin-left: calc(3 * var(--su)); */
+    width: var(--su);
+    height: var(--su);
+    border-radius: calc(.5 * var(--su));
+    float: left;
+    /* background-color: black; */
+}
+
+.active {
+    opacity: 1;
+    animation: fade_in var(--fade-duration) ease-in-out;
+}
+
+.inactive {
+    opacity: 0;
+    animation: fade_out var(--fade-duration) ease-in-out;
+}
+
+
+.rotate {
+    transform: rotate(-20deg);
+    transition: transform 100ms ease-in-out;
+}
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+        transform: rotate(-20deg);
+        top: 0;
+    } 
+
+    50% {
+        top: calc(-.125 * var(--su));
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg);
+        top: 0;
+    }
+    
+}
+
+@keyframes fade_out {
+    0% {
+        opacity: 1;
+        transform: rotate(-20deg);
+        top: 0;
+    } 
+
+    50% {
+        top: calc(-.125 * var(--su));
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(-360deg);
+        top: 0;
+    }
+    
+}
