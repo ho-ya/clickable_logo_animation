@@ -1,0 +1,130 @@
+.azwaz_w {
+    background-image: url(icons/SVG/AZWAZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.azwaz_c {
+    background-image: url(icons/SVG/AZWAZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.dnn_w {
+    background-image: url(icons/SVG/DNN_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.dnn_c {
+    background-image: url(icons/SVG/DNN_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.gtet_w {
+    background-image: url(icons/SVG/GT_ET_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.gtet_c {
+    background-image: url(icons/SVG/GT_ET_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.haz_w {
+    background-image: url(icons/SVG/HAZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.haz_c {
+    background-image: url(icons/SVG/HAZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.kn_w {
+    background-image: url(icons/SVG/KN_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.kn_c {
+    background-image: url(icons/SVG/KN_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.ln_w {
+    background-image: url(icons/SVG/LN_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.ln_c {
+    background-image: url(icons/SVG/LN_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.lvz_w {
+    background-image: url(icons/SVG/LVZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.lvz_c {
+    background-image: url(icons/SVG/LVZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+        
+.maz_w {
+    background-image: url(icons/SVG/MAZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.maz_c {
+    background-image: url(icons/SVG/MAZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+    
+.np_w {
+    background-image: url(icons/SVG/NP_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.np_c {
+    background-image: url(icons/SVG/NP_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+    
+.oz_w {
+    background-image: url(icons/SVG/OZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.oz_c {
+    background-image: url(icons/SVG/OZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+    
+.paz_w {
+    background-image: url(icons/SVG/PAZ_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.paz_c {
+    background-image: url(icons/SVG/PAZ_Logo_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+    
+.rnd_w {
+    background-image: url(icons/SVG/RND_Logo_Digital_WeissTransparent.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
+.rnd_c {
+    background-image: url(icons/SVG/RND_Logo_Digital_Farbig.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+    
+.sn_w {
+    background-image: url(icons/SVG/SN_Logo_WeissTransparent.svg);
+    opacity: 1; /* initial state w/o animation */
+    }
+
+.sn_c {
+    background-image: url(icons/SVG/RND_Logo_Digital_Farbig.svg);
+    opacity: 0; /* initial state w/o animation */
+    }
+
