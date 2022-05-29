@@ -81,18 +81,15 @@ class ContainerState {
         classListWhite.remove('rotate');
         classListColor.remove('rotate');
     
-        // if mouse still hovers after animation -> restart rotation
+        
         setTimeout(() => {
+            this.isThrottled = false;
+            // if mouse still hovers after animation -> restart rotation
             if (this.isMouseOver) {
                 classListWhite.add('rotate');
                 classListColor.add('rotate');
             }
-        }, fadeDuration)
-
-        setTimeout(() => {
-            this.isThrottled = false;
         }, fadeDuration);
-
     }
 
 }
