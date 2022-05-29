@@ -1,6 +1,7 @@
 :root {
-    --su: 200px;
+    --su: 4.5vw;
     --fade-duration: 700ms;
+    --rotate-duration: 100ms;
   }
   
 body {
@@ -11,30 +12,28 @@ body {
     position:absolute;
     width: var(--su);
     height: var(--su);
-    float: left;
-    transition: transform 100ms ease-in-out;
+    transition: transform var(--rotate-duration) ease-in-out;
 }
-
-.azwaz_w {
-    background-image: url(icons/SVG/AZWAZ_Logo_WeissTransparent.svg);
-    opacity: 1; /* initial state w/o animation */
-    }
-
-.azwaz_c {
-    background-image: url(icons/SVG/AZWAZ_Logo_Farbig.svg);
-    opacity: 0; /* initial state w/o animation */
-    }
-
 
 .logo_container {
     position: relative;
-    margin: calc(.5 * var(--su));
-    /* margin-left: calc(3 * var(--su)); */
+    margin: calc(.25 * var(--su));
+    margin-top: calc(.50 * var(--su));
     width: var(--su);
     height: var(--su);
     border-radius: calc(.5 * var(--su));
-    float: left;
+    display: inline-block;
     /* background-color: black; */
+}
+
+.big {
+    width: calc(1.75 * var(--su));
+    height: calc(1.75 * var(--su));
+    border-radius: calc(1 * var(--su));
+}
+
+.big.logo_container {
+    top: calc(.4 * var(--su));
 }
 
 .active {
@@ -50,7 +49,7 @@ body {
 
 .rotate {
     transform: rotate(-20deg);
-    transition: transform 100ms ease-in-out;
+    transition: transform var(--rotate-duration) ease-in-out;
 }
 
 @keyframes fade_in {
